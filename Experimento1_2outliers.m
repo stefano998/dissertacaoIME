@@ -2,7 +2,7 @@ fator=1  # [RA:1; RAP:2]
 pesos=1  # [PI:1; PU:2]
 
 for s=1:1
-rand("state",[2]);randn("state",[2]);
+rand("state",[4]);randn("state",[4]);
   if s==1
     ini_int_erro=3; fim_int_erro=6;
   elseif s==2

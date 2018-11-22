@@ -1,5 +1,5 @@
 warning ("off");
-randn("state",5); qtd_redes=2000;
+randn("state",[5]); qtd_redes=2000;
 tolerance=10**(-3) # 2 casas decimais além da última casa decimal das observações da rede # 
 m=20; n=10;com_teste_qui=1;valor_qui=20.48; valor_qui_min=3.25;  #teste bicaudal significancia 5%#
 cont_max_v1=0;cont_mean_v1=0;cont_std_v1=0;cont_min_v1=0;cont_range_v1=0;

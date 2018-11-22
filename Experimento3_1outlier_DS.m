@@ -1,6 +1,6 @@
 W=3.29;
 for s=1:4
-rand("state",[2]);randn("state",[2]);
+rand("state",[0]);randn("state",[0]);
   if s==1
     ini_int_erro=3; fim_int_erro=6;
   elseif s==2

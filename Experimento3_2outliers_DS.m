@@ -9,7 +9,7 @@ for s=1:4
     ini_int_erro=12; fim_int_erro=25;
   elseif s==4
     ini_int_erro=25; fim_int_erro=100;end
-rand("state",[2]);randn("state",[2]);
+rand("state",[3]);randn("state",[3]);
 qtd_itr=2000; cont_acerto=0;
 m1=20; n=10;m=m1;
 A=[1	0	0	0	0	0	0	0	0	0;

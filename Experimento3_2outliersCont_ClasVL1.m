@@ -1,5 +1,5 @@
-fator=2;  # [|v|:1; F:2; F':3] #obs: F=|v|/median(|v|);F'=|v|/mad(|v|);
-VC=6.9     #obs: VCL1 calculados: |v|:29.2; F:6.9; F':12.9
+fator=1;  # [|v|:1; F:2; F':3] #obs: F=|v|/median(|v|);F'=|v|/mad(|v|);
+VC=29.2     #obs: VCL1 calculados: |v|:29.2; F:6.9; F':12.9
 
 if 1
 mem=[1	1	2
@@ -168,7 +168,7 @@ mem=[1	1	2
 164	18	20
 165	19	20];end
 for s=1:4
-rand("state",[2]);randn("state",[2]);
+rand("state",[3]);randn("state",[3]);
   if s==1
     ini_int_erro=3; fim_int_erro=6;
   elseif s==2

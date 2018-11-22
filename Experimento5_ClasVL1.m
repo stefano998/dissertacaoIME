@@ -2,7 +2,7 @@ fator=1;  # [|v|:1; F:2; F':3] #obs: F=|v|/median(|v|);F'=|v|/mad(|v|);
 VC=17.0     #obs: novo VCL1: |v|=17.0;  antigos VCL1 calculados: |v|:29.2; F:6.9; F':12.9
 
 for s=1:4
-rand("state",[2]);randn("state",[2]);
+rand("state",[0]);randn("state",[0]);
   if s==1
     ini_int_erro=3; fim_int_erro=6;
   elseif s==2
