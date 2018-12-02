@@ -116,5 +116,5 @@ for q=1:qtd_itr
 end
 end
 ini_int_erro
-cont_mask
+PPCOMR=(1-(cont_mask/200000))*100
 end
