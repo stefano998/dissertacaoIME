@@ -1,5 +1,5 @@
-fator=1;  # [|v|:1; F:2; F':3] #obs: F=|v|/median(|v|);F'=|v|/mad(|v|);
-VC=29.2     #obs: VCL1 calculados: |v|:29.2; F:6.9; F':12.9
+fator=3;  # [|v|:1; F:2; F':3] #obs: F=|v|/median(|v|);F'=|v|/mad(|v|);
+VC=12.9     #obs: VCL1 calculados: |v|:29.2; F:6.9; F':12.9
 
 if 1
 mem=[1	1	2
@@ -285,4 +285,5 @@ end
 end
 ini_int_erro
 cont_acerto
+TS=cont_acerto/200000
 end

@@ -83,4 +83,5 @@ for q=1:qtd_itr
 end
 ini_int_erro
 acerto_real=cont_idt_correto-cont_idt_erro2 
+TS=acerto_real/200000
 end

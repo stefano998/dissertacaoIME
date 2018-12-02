@@ -37,6 +37,7 @@ A=[1	0	0	0	0	0	0	0	0	0;
 
 d=[49 41 38 34 22 13 23 48 15 24 62 49 35 43 20 28 19 39 27 21];
 dp=1.*sqrt(d);p=dp.^(-2);
+#p=ones(1,m);          ##desmarcar aqui para testar DS com pesos unitarios#
 P=diag(p);
 
 for q=1:qtd_itr
@@ -86,4 +87,5 @@ for q=1:qtd_itr
 end
 ini_int_erro
 acerto_real=cont_idt_correto-cont_idt_erro2 
+TS=acerto_real/200000
 end

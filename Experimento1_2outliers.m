@@ -1,5 +1,5 @@
 fator=1  # [RA:1; RAP:2] 
-pesos=1  # [PI:1; PU:2]
+pesos=1  # [PUnit:1; PIV:2]
 
 for s=1:4
 rand("state",[6]);randn("state",[6]);

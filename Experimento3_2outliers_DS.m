@@ -116,4 +116,5 @@ end
 end
 ini_int_erro
 cont_acerto
+TS=cont_acerto/200000
 end
