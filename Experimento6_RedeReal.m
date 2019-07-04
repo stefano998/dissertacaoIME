@@ -340,7 +340,7 @@ v=A*x-L;
 #Global Test
     sigma2_pos=(v'*P*v)/(m-n);
     QuiQuadCalc=sigma2_pos*(m-n)
-    LimSupQuiQuad=51.00;  #teste unicaudal a direita significancia 5%#
+    LimSupQuiQuad=53.38;  #teste unicaudal a direita significancia 5%#
     if QuiQuadCalc<LimSupQuiQuad
         "teste unicaudal a direita significancia 5%: ok!"
     else
