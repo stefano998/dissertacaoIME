@@ -2,7 +2,7 @@ fator=1;  # [|v|:1; F:2; F':3] #obs: F=|v|/median(|v|);F'=|v|/mad(|v|);
 
 VCInicial=16.0;
 for t=0:20
-rand("state",[2]);randn("state",[2]);
+#rand("state",[2]);randn("state",[2]);
   VC=VCInicial+0.1*t
   cont_acerto=0;
 
@@ -72,7 +72,7 @@ for q=1:qtd_itr
     choice=randi([-1 0]);
     if choice==0 
       choice=1;end
-    Lgross(j)=Lgross(j)+choice*dp(j)*(ini_int_erro+(fim_int_erro-ini_int_erro)*rand(1));
+    Lgross(j)=L(j)+choice*dp(j)*(ini_int_erro+(fim_int_erro-ini_int_erro)*rand(1));
     
     [xopt, fopt, erro, extra] = glpk (c, A1, Lgross, lb=[], ub=[], ctype, vartype, s=1, param);
     for i=1:m

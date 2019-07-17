@@ -1,6 +1,6 @@
 t0 = clock (); qtd_exec=100;
 for i=1:qtd_exec
-rand("state",[1]);randn("state",[1]);
+#rand("state",[1]);randn("state",[1]);
 m=105;n=67;W=3.29;erro_gross=10;                
 f1=randi([1 105]); f2=randi([1 105]);f3=randi([1 105]);f4=randi([1 105]);f5=randi([1 105]);              
 obsout=[f1 f2 f3 f4 f5]  ##para diminuir a qte de outliers, alterar esse vetor; ex: p/2 outliers fica obsout=[f1 f2]##

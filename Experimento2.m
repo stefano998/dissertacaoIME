@@ -32,6 +32,7 @@ dp=1.*sqrt(d);
   for q=1:m
     do a=randn(1);
     until (a<=3)
+    #dp(q)*a
     L(q,1)=L_perf(q)+dp(q)*a;
 end
 L=round(L.* 10)./10;
@@ -57,3 +58,6 @@ for i=1:m
   v(i)=xopt(2*n+i)-xopt(2*n+i+m);
 end
 abs(v)
+#"erros totais dos outliers"
+#L(obsout1)-L_perf(obsout1)
+#L(obsout2)-L_perf(obsout2)
