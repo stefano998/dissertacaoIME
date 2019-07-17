@@ -1,6 +1,6 @@
 # Códigos (Octave) dos experimentos da Dissertação de Mestrado
 
-Título da Dissertação: APLICAÇÃO DAS NORMAS L1 E L∞ EM REDES ALTIMÉTRICAS: IDENTIFICAÇÃO DE OUTLIERS E MODELO ESTOCÁSTICO
+Título da Dissertação: APLICAÇÃO DAS NORMAS L1 E L∞ EM REDES ALTIMÉTRICAS: IDENTIFICAÇÃO DE OUTLIERS E CONSTRUÇÃO DO MODELO ESTOCÁSTICO
 
 Autor: Stefano Sampaio Suraci
 
