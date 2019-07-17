@@ -86,7 +86,7 @@ for q=1:qtd_itr
     choice=randi([-1 0]);
     if choice==0 
       choice=1;end
-    Lgross(t)=Lgross(t)+choice*dp(t)*(ini_int_erro+(fim_int_erro-ini_int_erro)*rand(1));
+    Lgross(t)=L(t)+choice*dp(t)*(ini_int_erro+(fim_int_erro-ini_int_erro)*rand(1));
     
     [xopt, fopt, erro, extra] = glpk (c, A1, Lgross, lb=[], ub=[], ctype, vartype, s=1, param);
     
